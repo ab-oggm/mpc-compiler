@@ -1,0 +1,71 @@
+# =========================
+# Rust / Cargo
+# =========================
+
+# Build artifacts
+/target/
+**/target/
+
+# Cargo.lock
+# Keep Cargo.lock for binaries, ignore for libraries
+# If this is a binary workspace, COMMENT THIS OUT
+Cargo.lock
+
+# Rustfmt backup files
+*.rs.bk
+
+# Incremental compilation cache
+**/*.rs.save
+
+# =========================
+# Editor / IDE
+# =========================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IntelliJ / CLion / RustRover
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+# =========================
+# OS
+# =========================
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Debug / Logs
+# =========================
+
+*.log
+
+# =========================
+# Misc
+# =========================
+
+.env
+.env.*
